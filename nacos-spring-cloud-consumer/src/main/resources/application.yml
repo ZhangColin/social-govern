@@ -1,0 +1,20 @@
+server:
+  port: 8005
+
+spring:
+  application:
+    name: nacos-spring-cloud-consumer
+  profiles:
+    include: web
+    active: local
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
+    health:
+      show-details: always
