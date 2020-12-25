@@ -11,7 +11,7 @@
     <relativePath/>
   </parent>
 
-  <groupId>org.cartisan</groupId>
+  <groupId>com.cartisan</groupId>
   <artifactId>nacos-config</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
